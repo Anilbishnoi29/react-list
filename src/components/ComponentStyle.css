@@ -1,0 +1,27 @@
+.ComponentStyle {
+    background-color: rgb(182, 166, 255);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: rgb(47, 34, 105);
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.formControl input {
+    padding: .3rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    background-color: rgb(210, 200, 255);
+    border: 2px solid rgb(104, 70, 255);
+}
+
+.formControl input:focus,
+.formControl input:hover,
+.formControl input:active,
+.formControl input {
+    border: 2px solid rgb(87, 51, 250);
+    outline: none;
+}
